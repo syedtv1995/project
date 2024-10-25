@@ -54,20 +54,6 @@
 }
 
 /* Responsiveness for tablets and smaller devices */
-@media (max-width: 768px) {
-    .btn_header {
-        font-size: 1rem;
-        padding-right: 10px;
-    }
-}
-
-/* Responsiveness for mobile devices */
-@media (max-width: 480px) {
-    .btn_header {
-        font-size: 0.9rem;
-        padding: 8px 15px;
-    }
-}
 
 /* hero banner srart */
 .hero_banner{
@@ -120,30 +106,7 @@ padding-right: 50px;
 .pop p{
     text-align: justify;
 }
-@media (max-width: 768px) {
-    .hero_banner h1 {
-        font-size: 2rem;       
-    }
-    .aa h3{
-       font-size: 1.3rem;
-    }
-    .hero_banner{
-        margin-left: 20px;
-    }
-    
-}
 
-@media (max-width: 480px) {
-    .btn_header h1 {
-       font-size: 1rem;
-    }
-    .aa{
-        padding-left: 15px;
-    }
-    .aa h3{
-        font-size: 1rem;
-    }
-}
 
 .banner_button{
     background: var(--primary-color);
@@ -187,33 +150,7 @@ padding-right: 50px;
     /* max-width: 100%; */
 }
 
-@media (max-width: 776px) {
-    .pop h3 {
-        display: block;
-        font-size: 0.8rem;
-    }
-    .pop h1{
-        font-size: 1.3rem;
-        font-weight: bold;
-    }
-    .pop{
-        margin-left: 20px;
-    }
-}
 
-@media (max-width: 480px) {
-    .first_section {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .mmk{
-        width: 100%;
-    }
-    .pop{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
 
 .uty{
     width: 10px;
@@ -246,30 +183,6 @@ padding-right: 50px;
     padding-top: 33px !important;
     margin-bottom: 20px;
 }
-
-/* Responsive for medium devices - 3 cards per row */
-@media (max-width: 768px) {
-    .sec_Card_body {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .sec_three_card {
-        flex: 0 0 calc(33.33% - 16px); /* 3 cards per row */
-    }
-}
-
-/* Responsive for small devices - 2 cards per row */
-@media (max-width: 480px) {
-    .sec_Card_body {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .sec_three_card {
-        flex: 0 0 calc(50% - 16px); /* 2 cards per row */
-    }
-}
-
 /* sec-3 end */
 .first_section.jjj {
     flex-direction: row-reverse;
@@ -308,22 +221,72 @@ padding-right: 50px;
 }
 
 
-  @media (max-width: 480px) {
-
-    
-}
 
 
 
-@media (min-width: 480px) {
-    responsive_text_last {
-      font-size: 6px;
-    }
-  }
 
 .eeew{
     border: 0px !important;
 }
+
+
+
+
+
+
+@media (max-width: 766px) {
+    .ytr {
+        font-size: 0.8rem;     /* Larger font size for smaller screens */
+        font-weight: normal; /* Regular font weight */
+        background:green;    /* Blue background for smaller screens */
+        font-weight: bold;
+    }
+    .btn_header {
+        font-size: 1rem;
+        padding: 3px 16px 7px 16px;
+      }
+
+      #header {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+  
+      .hero_banner h1 {
+        font-size: 2rem;
+        padding-right: 3px;
+        text-align: center;
+      }
+      .hero_banner h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .aa h1{
+        text-align: center;
+      }
+      .bb {
+        text-align: center;
+        line-height: 4px;
+      }
+      .first_section {
+        flex-direction: column-reverse;
+    }
+    .mmk {
+        width: 100%;
+    }
+    .mmk.pop {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+}
+
+
+
+
+
 
 
 
